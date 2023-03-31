@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A15FEEB29CC6F1600D40415 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15FEEA29CC6F1600D40415 /* DetailsViewController.swift */; };
+		9A25FB4B29C47FE900E58E29 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25FB4A29C47FE900E58E29 /* LoginViewModel.swift */; };
+		9A25FB4D29C48BE000E58E29 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25FB4C29C48BE000E58E29 /* GradientView.swift */; };
+		9A25FB4F29C48D4700E58E29 /* CoinsListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25FB4E29C48D4700E58E29 /* CoinsListHeaderView.swift */; };
+		9A25FB5229C490C300E58E29 /* CoinsListVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25FB5129C490C300E58E29 /* CoinsListVC+TableView.swift */; };
+		9AE2C14129CEE7FD0029A5B3 /* LimitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2C14029CEE7FC0029A5B3 /* LimitResponse.swift */; };
+		9AFC0A4B29C4618D007180C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A4A29C4618D007180C9 /* AppDelegate.swift */; };
+		9AFC0A4D29C4618D007180C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A4C29C4618D007180C9 /* SceneDelegate.swift */; };
+		9AFC0A4F29C4618D007180C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A4E29C4618D007180C9 /* LoginViewController.swift */; };
+		9AFC0A5429C46190007180C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFC0A5329C46190007180C9 /* Assets.xcassets */; };
+		9AFC0A6829C463C5007180C9 /* CoinsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A6729C463C5007180C9 /* CoinsListViewController.swift */; };
+		9AFC0A6A29C465A3007180C9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A6929C465A3007180C9 /* CustomCell.swift */; };
+		9AFC0A6D29C465E0007180C9 /* CoinInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A6C29C465E0007180C9 /* CoinInfo.swift */; };
+		9AFC0A7029C46A34007180C9 /* CoinsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A6F29C46A34007180C9 /* CoinsListViewModel.swift */; };
+		9AFC0A7429C473DB007180C9 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A7129C473DB007180C9 /* LoginTextField.swift */; };
+		9AFC0A7529C473DB007180C9 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A7229C473DB007180C9 /* LoginButton.swift */; };
+		9AFC0A7629C473DB007180C9 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC0A7329C473DB007180C9 /* PasswordTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A15FEEA29CC6F1600D40415 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9A25FB4A29C47FE900E58E29 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9A25FB4C29C48BE000E58E29 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		9A25FB4E29C48D4700E58E29 /* CoinsListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsListHeaderView.swift; sourceTree = "<group>"; };
+		9A25FB5129C490C300E58E29 /* CoinsListVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoinsListVC+TableView.swift"; sourceTree = "<group>"; };
+		9AE2C14029CEE7FC0029A5B3 /* LimitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitResponse.swift; sourceTree = "<group>"; };
+		9AE2C14229CF48E60029A5B3 /* AstraWalletMVVM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AstraWalletMVVM.entitlements; sourceTree = "<group>"; };
+		9AFC0A4729C4618D007180C9 /* AstraWalletMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstraWalletMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC0A4A29C4618D007180C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AFC0A4C29C4618D007180C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AFC0A4E29C4618D007180C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AFC0A5329C46190007180C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFC0A5829C46190007180C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFC0A6729C463C5007180C9 /* CoinsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsListViewController.swift; sourceTree = "<group>"; };
+		9AFC0A6929C465A3007180C9 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9AFC0A6C29C465E0007180C9 /* CoinInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinInfo.swift; sourceTree = "<group>"; };
+		9AFC0A6F29C46A34007180C9 /* CoinsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsListViewModel.swift; sourceTree = "<group>"; };
+		9AFC0A7129C473DB007180C9 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		9AFC0A7229C473DB007180C9 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		9AFC0A7329C473DB007180C9 /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFC0A4429C4618D007180C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A25FB5029C4909500E58E29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A25FB5129C490C300E58E29 /* CoinsListVC+TableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9AFC0A3E29C4618D007180C9 = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A4929C4618D007180C9 /* AstraWalletMVVM */,
+				9AFC0A4829C4618D007180C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFC0A4829C4618D007180C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A4729C4618D007180C9 /* AstraWalletMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFC0A4929C4618D007180C9 /* AstraWalletMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2C14229CF48E60029A5B3 /* AstraWalletMVVM.entitlements */,
+				9AFC0A5E29C4625C007180C9 /* DefaultFiles */,
+				9AFC0A6B29C465C2007180C9 /* Models */,
+				9AFC0A6629C463B0007180C9 /* Views */,
+				9AFC0A6E29C46A0F007180C9 /* ViewModels */,
+				9A25FB5029C4909500E58E29 /* Extensions */,
+				9AFC0A5829C46190007180C9 /* Info.plist */,
+			);
+			path = AstraWalletMVVM;
+			sourceTree = "<group>";
+		};
+		9AFC0A5E29C4625C007180C9 /* DefaultFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A5329C46190007180C9 /* Assets.xcassets */,
+				9AFC0A4A29C4618D007180C9 /* AppDelegate.swift */,
+				9AFC0A4C29C4618D007180C9 /* SceneDelegate.swift */,
+			);
+			path = DefaultFiles;
+			sourceTree = "<group>";
+		};
+		9AFC0A5F29C4629A007180C9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A7229C473DB007180C9 /* LoginButton.swift */,
+				9AFC0A7129C473DB007180C9 /* LoginTextField.swift */,
+				9AFC0A7329C473DB007180C9 /* PasswordTextField.swift */,
+				9AFC0A6929C465A3007180C9 /* CustomCell.swift */,
+				9A25FB4C29C48BE000E58E29 /* GradientView.swift */,
+				9A25FB4E29C48D4700E58E29 /* CoinsListHeaderView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		9AFC0A6629C463B0007180C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A5F29C4629A007180C9 /* CustomViews */,
+				9AFC0A4E29C4618D007180C9 /* LoginViewController.swift */,
+				9AFC0A6729C463C5007180C9 /* CoinsListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFC0A6B29C465C2007180C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AFC0A6C29C465E0007180C9 /* CoinInfo.swift */,
+				9AE2C14029CEE7FC0029A5B3 /* LimitResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AFC0A6E29C46A0F007180C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A25FB4A29C47FE900E58E29 /* LoginViewModel.swift */,
+				9AFC0A6F29C46A34007180C9 /* CoinsListViewModel.swift */,
+				9A15FEEA29CC6F1600D40415 /* DetailsViewController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFC0A4629C4618D007180C9 /* AstraWalletMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC0A5B29C46190007180C9 /* Build configuration list for PBXNativeTarget "AstraWalletMVVM" */;
+			buildPhases = (
+				9AFC0A4329C4618D007180C9 /* Sources */,
+				9AFC0A4429C4618D007180C9 /* Frameworks */,
+				9AFC0A4529C4618D007180C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstraWalletMVVM;
+			productName = AstraWalletMVVM;
+			productReference = 9AFC0A4729C4618D007180C9 /* AstraWalletMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFC0A3F29C4618D007180C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9AFC0A4629C4618D007180C9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9AFC0A4229C4618D007180C9 /* Build configuration list for PBXProject "AstraWalletMVVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFC0A3E29C4618D007180C9;
+			productRefGroup = 9AFC0A4829C4618D007180C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFC0A4629C4618D007180C9 /* AstraWalletMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFC0A4529C4618D007180C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFC0A5429C46190007180C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFC0A4329C4618D007180C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFC0A7629C473DB007180C9 /* PasswordTextField.swift in Sources */,
+				9AFC0A6829C463C5007180C9 /* CoinsListViewController.swift in Sources */,
+				9A25FB4D29C48BE000E58E29 /* GradientView.swift in Sources */,
+				9A25FB5229C490C300E58E29 /* CoinsListVC+TableView.swift in Sources */,
+				9AFC0A7529C473DB007180C9 /* LoginButton.swift in Sources */,
+				9AFC0A7429C473DB007180C9 /* LoginTextField.swift in Sources */,
+				9AFC0A7029C46A34007180C9 /* CoinsListViewModel.swift in Sources */,
+				9AFC0A6D29C465E0007180C9 /* CoinInfo.swift in Sources */,
+				9AFC0A4F29C4618D007180C9 /* LoginViewController.swift in Sources */,
+				9A25FB4F29C48D4700E58E29 /* CoinsListHeaderView.swift in Sources */,
+				9AFC0A4B29C4618D007180C9 /* AppDelegate.swift in Sources */,
+				9AFC0A6A29C465A3007180C9 /* CustomCell.swift in Sources */,
+				9AE2C14129CEE7FD0029A5B3 /* LimitResponse.swift in Sources */,
+				9AFC0A4D29C4618D007180C9 /* SceneDelegate.swift in Sources */,
+				9A25FB4B29C47FE900E58E29 /* LoginViewModel.swift in Sources */,
+				9A15FEEB29CC6F1600D40415 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AFC0A5929C46190007180C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AFC0A5A29C46190007180C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFC0A5C29C46190007180C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AstraWalletMVVM/AstraWalletMVVM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z89GNZYVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstraWalletMVVM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = astra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szyinlong.AstraWalletMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AFC0A5D29C46190007180C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AstraWalletMVVM/AstraWalletMVVM.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z89GNZYVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstraWalletMVVM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = astra;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szyinlong.AstraWalletMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFC0A4229C4618D007180C9 /* Build configuration list for PBXProject "AstraWalletMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC0A5929C46190007180C9 /* Debug */,
+				9AFC0A5A29C46190007180C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC0A5B29C46190007180C9 /* Build configuration list for PBXNativeTarget "AstraWalletMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC0A5C29C46190007180C9 /* Debug */,
+				9AFC0A5D29C46190007180C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AFC0A3F29C4618D007180C9 /* Project object */;
+}
