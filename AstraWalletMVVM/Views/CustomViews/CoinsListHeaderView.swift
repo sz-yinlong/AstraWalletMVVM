@@ -8,80 +8,6 @@
 
 import UIKit
 
-//class CoinsListHeaderView: UIView {
-//
-//    var onSortButtonTapped: (() -> Void)?
-//
-//    override init(frame: CGRect) {
-//        super.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 27))
-//
-//        setupHeaderView()
-//
-//    }
-//
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-//
-//    private func setupHeaderView() {
-//        self.backgroundColor = .systemPink
-//        self.alpha = 0.8
-//
-//        let rankLabel = UILabel(frame: CGRect(x: 15, y: 5, width: 20, height: 20))
-//        rankLabel.text = "#"
-//        self.addSubview(rankLabel)
-//
-//        let nameLabel = UILabel(frame: CGRect(x: 40, y: 5, width: 40, height: 20))
-//        nameLabel.text = "coin"
-//
-//        self.addSubview(nameLabel)
-//
-//        let priceLabel = UILabel(frame: CGRect(x: 160, y: 5, width: 40, height: 20))
-//        priceLabel.text = "price"
-//
-//        self.addSubview(priceLabel)
-//
-//        let sortButton = UIButton()
-//                let symbolConfig = UIImage.SymbolConfiguration(pointSize: 15, weight: .medium)
-//                let image = UIImage(systemName: "arrow.up.arrow.down")?.withConfiguration(symbolConfig)
-//                sortButton.tintColor = .white
-//                sortButton.layer.borderWidth = 1
-//                sortButton.layer.borderColor = UIColor.white.cgColor
-//                sortButton.layer.cornerRadius = 8
-//                sortButton.setImage(image, for: .normal)
-//
-//                sortButton.addTarget(self, action: #selector(sortButtonTapped), for: .touchUpInside)
-//
-//
-//                self.addSubview(sortButton)
-//                sortButton.translatesAutoresizingMaskIntoConstraints = false
-//
-//
-//                NSLayoutConstraint.activate([
-//                    sortButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-//                    sortButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -120),
-//                    sortButton.widthAnchor.constraint(equalToConstant: 38),
-//                    sortButton.heightAnchor.constraint(equalToConstant: 28)
-//                ])
-//
-//
-//
-//        let marketCapLabel = UILabel(frame: CGRect(x: 290, y: 5, width: 80, height: 20))
-//        marketCapLabel.text = "market cap"
-//
-//        self.addSubview(marketCapLabel)
-//
-//
-//        for case let label as UILabel in self.subviews {
-//            label.textColor = .white
-//            label.font = .boldSystemFont(ofSize: 12)
-//        }
-//
-//    }
-//    @objc private func sortButtonTapped() {
-//           onSortButtonTapped?()
-//       }
-//}
 
 
 
@@ -154,7 +80,7 @@ class CoinsListHeaderView: UIView {
             priceLabel.trailingAnchor.constraint(equalTo: sortButton.leadingAnchor, constant: -40),
             priceLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
 
-            sortButton.trailingAnchor.constraint(equalTo: marketCapLabel.leadingAnchor, constant: -40),
+            sortButton.trailingAnchor.constraint(equalTo: marketCapLabel.leadingAnchor, constant: -35),
             sortButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             sortButton.widthAnchor.constraint(equalToConstant: 38),
             sortButton.heightAnchor.constraint(equalToConstant: 28),
